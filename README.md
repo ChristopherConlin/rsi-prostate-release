@@ -28,4 +28,9 @@ source <env_name>/bin/activate # (or activate.csh for (t)csh)
 ```
 
 ## Usage
+1. Edit the params.txt file to configure runtime options
+2. Call the compiled MATLAB executable:
+`./run_prostate_app.sh <path to MATLAB Runtime> <path to MRI DICOM data> <path to directory for output files> <path to params.txt file>`
+e.g.,
+`./run_prostate_app.sh /space/bil-syn01/1/cmig_bil/v912 /home/ccconlin/PDS3412 /home/ccconlin/test_out/ ./params.txt`
 
