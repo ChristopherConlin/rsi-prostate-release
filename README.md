@@ -29,7 +29,8 @@ source <env_name>/bin/activate # (or activate.csh for (t)csh)
 
 ## Usage
 1. Edit the params.txt file to configure runtime options
-2. Call the compiled MATLAB executable (see readme_rsiapp.txt):
+   - Be sure to provide the correct path to the python virtual environment if you intend to generate DICOM SEG files
+3. Call the compiled MATLAB executable (see readme_rsiapp.txt):
 ```
 ./run_prostate_app.sh <path to MATLAB Runtime> <path to MRI DICOM data> <path to directory for output files> <path to params.txt file>
 ```
