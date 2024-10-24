@@ -1,0 +1,34 @@
+
+params.WriteOptionalSeries = 0;
+
+params.B0DISCO = 1;
+params.B0optFlag = 1;
+params.B0corrmin = 0.95;
+params.EddyCorrFlag = 1;
+params.MotionCorrFlag = 1;
+params.CorrectNoise = 1;
+
+params.ProstateSeg = 1;
+params.ProstateSegContainer = 'docker';
+
+params.ModelADCs = [1.0528e-04 0.0018 0.0036 0.1220];
+
+params.WriteDICOMS = 1;
+params.SelectDICOMS.T2 = 1;
+params.SelectDICOMS.DCE = 1;
+params.SelectDICOMS.DWI = 1;
+params.SelectDICOMS.ADC = 1;
+params.SelectDICOMS.RSICmaps = 1;
+params.SelectDICOMS.RSIrs = 1;
+params.SelectDICOMS.RSIrsOverlay = 1;
+params.SelectDICOMS.ProstateAutoSeg_RT = 1;
+params.SelectDICOMS.ProstateAutoSeg_SEG = 1;
+params.SelectDICOMS.LesionAutoSeg_RT = 1;
+params.SelectDICOMS.LesionAutoSeg_SEG = 1;
+
+params.PythonVEnv = '/home/ccconlin/Working/pirads_app/venv_pirads';
+
+params.DebugFlag = 0;
+params.CheckProtocolCompliance = 1;
+params.ProtocolReference = 'artpro_protocol_reference.mat';
+
