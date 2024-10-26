@@ -9,7 +9,8 @@
 ## Installation instructions
 ### RSI software
 1. Download latest release from this repo
-2. Unzip files onto your local filesystem
+  - Both the rsiapp executable and the source code zip (or tar.gz)
+3. Unzip files onto your local filesystem
 
 ### MATLAB Runtime:
 1. Download and install version 9.12 (R2022a) for 64-bit Linux: https://www.mathworks.com/products/compiler/mcr/index.html
@@ -32,5 +33,5 @@ source <env_name>/bin/activate # (or activate.csh for (t)csh)
    - Be sure to provide the correct path to the python virtual environment if you intend to generate DICOM SEG files
 3. Call the compiled MATLAB executable (see readme_rsiapp.txt):
 ```
-./run_prostate_app.sh <path to MATLAB Runtime> <path to MRI DICOM data> <path to directory for output files> <path to params.txt file>
+./run_rsiapp.sh <path to MATLAB Runtime> <path to MRI DICOM data> <path to directory for output files> <path to params.txt file>
 ```
