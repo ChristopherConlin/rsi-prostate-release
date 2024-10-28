@@ -8,8 +8,9 @@
 
 ## Installation instructions
 ### RSI software
-1. Download latest release from this repo
-      - Both the rsiapp executable and the source code zip (or tar.gz)
+1. Download latest **Release** from this repo
+      - Look under "Releases" to the right of this page
+      - Download both the rsiapp executable and the source code zip (or tar.gz)
 3. Unzip the source code files onto your local filesystem, and place the rsiapp executable in the same directory
 
 ### MATLAB Runtime:
