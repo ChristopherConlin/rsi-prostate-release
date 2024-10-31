@@ -34,5 +34,6 @@ source <env_name>/bin/activate # (or activate.csh for (t)csh)
    - Be sure to provide the correct path to the python virtual environment if you intend to generate DICOM SEG files
 3. Call the compiled MATLAB executable (see readme_rsiapp.txt):
 ```
-./run_rsiapp.sh <path to MATLAB Runtime> <path to MRI DICOM data> <path to directory for output files> <path to params.txt file>
+./run_rsiapp.sh <absolute path to MATLAB Runtime> <absolute path to MRI DICOM data> <absolute path to directory for output files> <absolute path to params.txt file>
 ```
+   - **Important:** Make sure to provide absolute paths (`/home/user/data` instead of `~/data`)
