@@ -36,4 +36,4 @@ source <env_name>/bin/activate # (or activate.csh for (t)csh)
 ```
 ./run_rsiapp.sh <absolute path to MATLAB Runtime> <absolute path to MRI DICOM data> <absolute path to directory for output files> <absolute path to params.txt file>
 ```
-   - **Important:** Make sure to provide absolute paths (`/home/user/data` instead of `~/data`)
+   - **Important:** Make sure to provide absolute paths (e.g., `/home/user/data` instead of `~/data`)
